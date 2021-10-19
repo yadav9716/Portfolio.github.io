@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" media="screen and (max-width: 1162px)" href="css/phone1.css">
+    <link rel="stylesheet" media="screen and (max-width: 954px)" href="css/phone2.css">
+    <link rel="stylesheet" media="screen and (max-width: 580px)" href="css/phone3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navlist background">
+        <ul class="left">
+            <li><a href="#">MyPortfolio</a></li>
+        </ul>
+        <div class="column">
+            <div class="burger">
+                <ul class="line"></ul>
+                <ul class="line"></ul>
+                <ul class="line"></ul>
+            </div>
+            <div>
+                <ul class="right v-class-resp">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>       
+        </div>
+    </nav>
+    <div class="img-below-nav bg-services">
+        <h1>Services</h1>
+    </div>
+    <section id="services">
+        <h1><u>Skills</u></h1>
+        <p>These are the skills that i had learned :</p>
+        
+        <div class="ele">
+            <p>HTML</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">95%</div>
+            </div>
+        </div>
+        <div class="ele">
+            <p>CSS</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">85%</div>
+            </div>
+        </div>
+        <div class="ele">
+            <p>JAVASCRIPT</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">65%</div>
+            </div>
+        </div>
+        <div class="ele">
+            <p>BOOTSTRAP</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">60%</div>
+            </div>
+        </div>
+        <div class="ele">
+            <p>WORDPRESS</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">65%</div>
+            </div>
+        </div>
+        <div class="ele">
+            <p>Photoshop</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.MyPortfolio.com. All rights reserved!
+        </div>
+    </footer>
+
+    <script>
+        console.log("hello")
+        var right = document.querySelector('.right')
+        var burger = document.querySelector('.burger')
+        var navlist = document.querySelector('.navlist')
+        burger.addEventListener('click', () =>{
+            right.classList.toggle('v-class-resp')
+        })
+        
+    </script>
+</body>
+</html>

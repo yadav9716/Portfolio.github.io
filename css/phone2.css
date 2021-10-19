@@ -1,0 +1,26 @@
+#home{
+    flex-direction: column;
+    justify-content: center;
+    /* height: 76vh; */
+}
+.home-left{
+    margin: 20px;
+}
+.home-right{
+    text-align: center;
+}
+#about, #resume, #services, #contact, #portfolio{
+    padding: 4rem 4rem;
+}
+.box{
+    flex-direction: column;
+}
+.two-sections{
+    display: flex;
+}
+.contact-left{
+    display: none;
+}
+.contact-right{
+    width: 100%;
+}

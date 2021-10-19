@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" media="screen and (max-width: 1162px)" href="css/phone1.css">
+    <link rel="stylesheet" media="screen and (max-width: 954px)" href="css/phone2.css">
+    <link rel="stylesheet" media="screen and (max-width: 580px)" href="css/phone3.css">
+</head>
+<body>
+    <nav class="navbar navlist background">
+        <ul class="left">
+            <li><a href="#">MyPortfolio</a></li>
+        </ul>
+        <div class="column">
+            <div class="burger">
+                <ul class="line"></ul>
+                <ul class="line"></ul>
+                <ul class="line"></ul>
+            </div>
+            <div>
+                <ul class="right v-class-resp">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>       
+        </div>
+    </nav>    
+
+    <div class="img-below-nav bg-about">
+        <h1>About</h1>
+    </div>
+    <section id="about">
+        <h1><u>About</u></h1>
+        <p>Hi, my name is Sonu. I am a student currently pursuing my BSC Computer Science(Hon.) from University of Delhi.</p>
+        <div class="box">
+            <div class="about-left">
+                <img src="img/photo.png" alt="image not available">
+            </div>
+            <div class="about-right">
+                <h1>Web Developer</h1>
+                <p>I had recently learned Web Development with pure HTML, CSS and JavaScript. Also I know some of the frameworks like Bootstraps and Wordpress.</p>
+                <div class="color-box">
+                    <ul>
+                        <li><b>Dob: </b>23rd March 2002</li>
+                        <!-- <li><b>Website: </b>No website</li> -->
+                        <li><b>Phone: </b>9716088292</li>
+                        <li><b>City: </b>New Delhi</li>
+                        <li><b>Age: </b>19</li>
+                        <li><b>Degree: </b>BSC Computer Science(Hon.)</li>
+                        <li><b>Email id: </b>yadav9716sonu@gmail.com</li>
+                        <!-- <li><b>Freelance: </b>Available</li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h1><u>Resume</u></h1>
+        <p>Some information regarding my Education and links to the websites that i had created. The first column contains my information regarding my Education. The second column all the links to the websites.</p>
+        <div class="two-sections">
+            <div class="resume-left">
+                <div class="padding-box">
+                    <div class="padding-box1">
+                        <h1><u>Summary</u></h1>
+                        <p>I know Web Development and learned HTML, CSS and JavaScript. Also i know frameworks like Bootstraps and Wordpress.</p>
+                        <ul>
+                            <li>yadav9716sonu@gmail.com</li>
+                            <li>9716088292</li>
+                            <li>WZ-87, Ring road naraina, Delhi cantt - 10</li>
+                        </ul>
+                    </div>
+                    <!-- <hr> -->
+                    <div class="padding-box1">
+                        <h1><u>Education</u></h1>
+                        <h2>BSC COMPUTER SCIENCE(Hon.)</h2>
+                        <p>2019-2022</p>
+                        <p><b>University of Delhi</b></p>
+                        <p>Currently pursuing my education from University of Delhi.</p>
+                        
+                        <h2>XIIth</h2>
+                        <p>2018-2019</p>
+                        <p><b>Kendriya Vidyalaya No-3</b></p>
+                        <p>I had done my schooling from K.V.No-3 and the result of my 12th was 89% .</p>
+                    </div>
+                    <div class="padding-box1">
+                    </div>
+                </div>
+            </div>
+            <div class="resume-right">
+                <div class="padding-box">
+                    <div class="padding-box1">
+                        <h1><u>Projects</u></h1>
+                        <h2><li>Note Making Website</li></h2>
+                        <p>This can be used to Create notes, Delete notes and Filtering(searching) the notes. Made using Vanilla JavaScript and Bootstrap.</p>
+                        <ul>
+                            <a href="https://yadav9716.github.io/MagicNotes.github.io/" target="_blank">Click here</a>
+                        </ul>
+                        <h2><li>News API Website</li></h2>
+                        <p>This website fetch the latest news from an API. Its has a countdown timer also. After that time a confirmation will be asked to either close or reload the project.</p>
+                        <ul>
+                            <a href="https://yadav9716.github.io/MagicNotes.github.io/" target="_blank">Click here</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.MyPortfolio.com. All rights reserved!
+        </div>
+    </footer>
+
+    <script>
+        console.log("hello")
+        var right = document.querySelector('.right')
+        var burger = document.querySelector('.burger')
+        var navlist = document.querySelector('.navlist')
+        burger.addEventListener('click', () =>{
+            right.classList.toggle('v-class-resp')
+        })
+        
+    </script>
+</body>
+</html>

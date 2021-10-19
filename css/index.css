@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    padding: 8px;
+    position: sticky;
+    top: 0px;
+    color: white;
+    /* border: 2px solid black; */
+    /* background-color: red; */
+}
+.navbar ul li, .color-box ul li{
+    list-style-type: none;
+    /* border: 2px solid black; */
+}
+.navlist{
+    display: block;
+    /* position: sticky; */
+    width: 100%;
+}
+.burger{
+    border: 2px solid white;
+    padding: 4px;
+    display: none;
+    cursor: pointer;
+    float: right;
+    /* visibility: hidden; */
+    /* height: 10px; */
+    /* width: 50px; */
+}
+.line{
+    border: 2px solid white;
+}
+ul li a, ul a{
+    color: blue;
+    font-size: 17px;
+}
+nav ul li a{
+    color: white;
+}
+li a, a{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: none;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 0px 15px;
+    /* color: black; */
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    /* display: block; */
+    /* position: absolute; */
+    /* right: 0px; */
+}
+.bg-portfolio{
+    background: rgba(0, 0, 0, 0.7) url('../img/Portfolio.webp');
+}
+.bg-about{
+    background: rgba(0, 0, 0, 0.7) url('../img/about.jpg');
+}
+.bg-contact{
+    background: rgba(0, 0, 0, 0.7) url('../img/contact.png');
+}
+.bg-services{
+    background: rgba(0, 0, 0, 0.7) url('../img/services.jpg');
+}
+.img-below-nav{
+    height: 80vh;
+    /* background: rgba(0, 0, 0, 0.7) url('../img/Portfolio.webp'); */
+    background-size: cover;
+    background-blend-mode:saturation;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    float: left;
+    position: absolute;
+    top: 0;
+    margin-right: auto;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* text-align: left; */
+}
+.right{
+    display: flex;
+    float: right;
+    flex-direction: row;
+    right: 0;
+}
+#home{
+    height: 90vh;
+    display: flex;
+    color: white;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    /* width: 60%; */
+    /* padding: 20px; */
+    /* background-color: red; */
+}
+/* #home::before {
+    content: "";
+    position: absolute;
+    background: url('img/pexels-pixabay-326279.jpg');
+    background-color: red;
+    background-size: cover;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+} */
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/index.jfif');
+    background-size: cover;
+    background-blend-mode: saturation;
+}
+.home-left{
+    margin: 10px;
+}
+
+.home-left img,.top-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 2px solid red;
+}
+.home-right{
+    width: 66%;
+    padding: 0px 20px;
+    /* padding: auto 4px; */
+    text-align: left;
+}
+#about, #resume, #services, #portfolio{
+    padding: 4rem 16rem;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    /* width: 100%; */
+}
+.color-box{
+    background-color: gray;
+    text-align: left;
+    padding: 10px 20px;
+}
+.about-left{
+    float: left;
+    width: 30vw;
+    margin: auto;
+}
+.about-left img{
+    border: 2px solid red;
+}
+.about-right{
+    width: 76%;
+    padding: 0px 20px;
+    text-align: center;
+    margin: auto;
+    float: right;
+    /* display: flex; */
+}
+.ele{
+    margin: auto;
+    width: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* display: flex; */
+}
+.resume-right{
+    border-left: 2px solid black;
+    width: 50%;
+}
+.resume-left{
+    /* border-left: 2px solid black; */
+    width: 50%;
+}
+.two-sections{
+    display: flex;
+}
+.padding-box{
+    padding: 0px 20px;
+    /* padding-left: 10px; */
+}
+#contact{
+    padding: 4rem 16rem;
+}
+.contact-left{
+    width: 28%;
+}
+.contact-right{
+    width: 72%;
+}
+.box1 img, .box2 img, .box3 img{
+    height: 40px;
+}
+.box1, .box2, .box3{
+    display: flex;
+    padding: 20px 10px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px;
+}
+.form-group label{
+    font-size: 19px;
+    font-weight: 700;
+    padding: 4px 0px;
+}
+input, textarea{
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    /* margin: 5px 10px; */
+}
+.btn-send{
+    padding: 5px 10px;
+    margin: 10px 20px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: rgb(32, 27, 29);
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    padding: 8px 12px;
+    background-color: rgb(53, 49, 49);
+    /* color: black; */
+}
+.padding-box1{
+    padding: 20px 10px;
+}
+footer{
+    color: white;
+    background-color: black;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+.center{
+    text-align: center;
+}
+/* .img1{
+    height: 60vh;
+    width: 100vw;
+    border: 10px solid red;
+}
+*/
+.padding-image{
+    padding: 20px 10px;
+    text-align: center;
+}
+.first-image img{
+    width: 48%;
+    border: 1px solid black;
+}
+.second-image img{
+    width: 49%;
+    border: 1px solid black;
+}
+
+
+@media only screen and (max-width: 954px){
+    .right{
+        flex-direction: column;
+        margin-left: auto;
+        /* display: inline-block; */
+    }
+    .column{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        width: 100%;
+    }
+    .burger{
+        display: block;
+        margin-left: auto;
+        width: 50px;
+        /* width: 100%; */
+        height: 40px;
+        /* text-align: right; */
+        /* float: right; */
+    }
+    .line{
+        margin: 4px;
+    }
+    .column div ul li a{
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 100vw;
+        /* color: red; */
+    }
+    .v-class-resp{
+        display: none;
+        text-align: center;
+        /* transition: 0.4s ease-out; */
+    }
+}
